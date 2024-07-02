@@ -1,0 +1,100 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.heading {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 60px;
+}
+.heading h1 {
+	font-size: 3.75rem;
+}
+.heading h2 {
+	font-size: 2rem;
+}
+.heading p {
+	font-size: 1.75rem;
+	margin-bottom: 0.5rem;
+}
+
+.loginBox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 650px;
+	width: 100%;
+	box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 32px;
+	padding: 30px 40px;
+}
+.loginBox h3 {
+	font-size: 1.75rem;
+	margin-bottom: 2rem;
+}
+.loginBox form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.inputBox {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 0.5rem;
+	margin-bottom: 1rem;
+}
+.inputBox label {
+	font-size: 1.125rem;
+	font-weight: 500;
+}
+.inputBox input {
+	width: 100%;
+	height: 50px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	padding: 0 10px;
+	font-size: 1.125rem;
+}
+.inputBox input:focus {
+	outline: none;
+	border-color: #007bff;
+}
+
+.passwordInputBox {
+	position: relative;
+}
+.eyeIcon {
+	position: absolute;
+	right: 16px;
+	top: 47px;
+	cursor: pointer;
+}
+
+.desc {
+	font-size: 1.125rem;
+	margin-bottom: 2rem;
+	align-self: flex-end;
+}
+
+.loginBtn {
+	padding: 12px 40px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 1.25rem;
+	border: none;
+	border-radius: 8px;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+.loginBtn:hover {
+	background-color: #0056b3;
+}

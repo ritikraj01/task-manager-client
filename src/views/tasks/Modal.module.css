@@ -1,0 +1,205 @@
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px 20px 15px 20px;
+	gap: 1rem;
+}
+.wrapper h1 {
+	font-size: 1.25rem;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	width: 100%;
+}
+.formItem {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.formItem label {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.formItem input {
+	padding: 6px 10px;
+	border: 1px solid #ccc;
+	font-family: "montserrat", sans-serif;
+	border-radius: 5px;
+}
+.formItem input:focus {
+	outline: none;
+	border: 1px solid #555555;
+}
+.formItem input::placeholder {
+	font-family: "montserrat", sans-serif;
+	color: #ccc;
+}
+.formItem textarea {
+	padding: 6px 10px;
+	border: 1px solid #ccc;
+	font-family: "montserrat", sans-serif;
+	border-radius: 5px;
+	min-height: 100px;
+	resize: vertical;
+}
+.formItem textarea::placeholder {
+	font-family: "montserrat", sans-serif;
+	color: #ccc;
+}
+.formItem textarea:focus {
+	outline: none;
+	border: 1px solid #555555;
+}
+.required {
+	color: #f73939;
+	font-size: 0.75rem;
+	position: relative;
+	top: -4px;
+}
+
+.taskPropsBox {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2rem;
+}
+
+.status {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.status label {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.status select {
+	padding: 6px 10px;
+	border: 1px solid #ccc;
+	font-family: "montserrat", sans-serif;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.status select:focus {
+	outline: none;
+	border: 1px solid #555555;
+}
+
+.priority {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.priority label {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.priority select {
+	padding: 6px 10px;
+	border: 1px solid #ccc;
+	font-family: "montserrat", sans-serif;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.priority select:focus {
+	outline: none;
+	border: 1px solid #555555;
+}
+
+.dueDate {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+.dueDate label {
+	font-size: 1rem;
+	font-weight: 600;
+}
+.dueDate input {
+	padding: 6px 10px;
+	border: 1px solid #ccc;
+	font-family: "montserrat", sans-serif;
+	border-radius: 5px;
+}
+.dueDate input:focus {
+	outline: none;
+	border: 1px solid #555555;
+}
+
+.btns {
+	display: flex;
+	margin-top: 1rem;
+	justify-content: center;
+	gap: 1rem;
+}
+.createBtn {
+	padding: 8px 16px;
+	border: 1px solid #ccc;
+	background-color: #399eec;
+	color: white;
+	font-family: "montserrat", sans-serif;
+	font-size: 1rem;
+	border-radius: 16px;
+	cursor: pointer;
+}
+.createBtn:hover {
+	background-color: #399eec;
+}
+
+.cancelBtn {
+	padding: 8px 16px;
+	border: 1px solid #ccc;
+	background-color: #f73939;
+	font-family: "montserrat", sans-serif;
+	font-size: 1rem;
+	color: white;
+	border-radius: 16px;
+	cursor: pointer;
+}
+.cancelBtn:hover {
+	background-color: #f73939;
+}
+
+/* ========= Delete Modal Styles ============= */
+.modalWrapper {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.modalButton {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 20px;
+}
+.modalText {
+	font-weight: 600;
+}
+.confirmDelBtn {
+	float: right;
+	background-color: tomato;
+	color: white;
+	padding: 4px 10px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.confirmDelBtn:hover {
+	background-color: #f73939;
+}
+.cancelBtn2 {
+	float: right;
+	background-color: #71c4ff;
+	color: white;
+	padding: 4px 10px;
+	border-radius: 8px;
+	cursor: pointer;
+	font-weight: 600;
+}
+.cancelBtn2:hover {
+	background-color: #399eec;
+}
